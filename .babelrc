@@ -1,0 +1,13 @@
+﻿// https://medium.com/@bfanger/styled-jsx-with-scss-in-next-js-5850dfc00449
+{
+	"presets": [
+	  [
+		"next/babel",
+		{
+		  "styled-jsx": {
+			"plugins": ["styled-jsx-plugin-sass"]
+		  }
+		}
+	  ]
+	]
+  }
